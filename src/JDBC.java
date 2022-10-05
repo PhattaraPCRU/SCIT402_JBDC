@@ -13,7 +13,7 @@ public class JDBC {
         try {
             String driverName = "com.mysql.cj.jdbc.Driver";
             Class.forName(driverName);
-            String serverName = "localhost";    //server location eg. localhost, 192.168.123, myserver.com
+            String serverName = "localhost";    //server location eg. localhost, IP-Address, mysqlserver.com
             String schema = "testdb";           //database name
             String url = "jdbc:mysql://" + serverName +  "/" + schema;
             String username = "root";           //username
